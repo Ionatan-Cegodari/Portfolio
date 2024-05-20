@@ -1,0 +1,896 @@
+@media screen and (min-width: 1024px) {/*media query that allows the size of the content to match the size of the screen its the same code as the others but others just have different values*/
+/*---------------body part---------------*/
+body{
+    display: block;
+    margin: 0;
+}
+/*---------------header part---------------*/
+#main-header{
+
+    background-color:#242525;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+    text-align: center;
+    font-family: "Lucida Console";
+    color: white;
+    padding: 1%;
+    font-size: 3vw;
+}
+
+#header-logo{
+    text-align: center;
+}
+
+#descrip{
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+    margin: 0.5%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+
+}
+
+/*---------------skills part---------------*/
+
+#skills-title{
+    font-size: 1.8vw;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#skills-div{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    padding: 1%;
+}
+
+/*---------------software projects part---------------*/
+
+#software-projects-div{
+    padding: 1%;
+}
+
+#software-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+
+#main-software{
+    margin-top: 5%;
+}
+
+#software-languages-images{
+    width: 60%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.software_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.software_image__img {
+    display: block;
+    width: 100%;
+}
+
+.software_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 85%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.software_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.software_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------web projects part---------------*/
+
+#web-projects-dev{
+    padding: 1%;
+}
+
+#web-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+    margin-top: 5%;
+
+}
+
+#web-software{
+    margin-top: 5%;
+}
+
+#web-languages-images{
+    width: 80%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.web_image__img {
+    display: block;
+    width: 100%;
+}
+
+.web_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 19%;
+    width: 62%;
+    height: 82%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.web_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.web_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------game projects part---------------*/
+
+#game-projects-dev{
+    padding: 1%;
+}
+
+#game-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 1%;
+    margin-bottom: -2%;
+    margin-top: 5%;
+
+}
+
+#game-software{
+    margin-top: 5%;
+}
+
+#game-languages-images{
+    width: 20%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.game_image__img {
+    display: block;
+    width: 100%;
+}
+
+.game_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 20%;
+    height: 85%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.game_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.game_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------images in projects---------------*/
+
+#imgs{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 110%;
+    border: 5px solid rgb(54, 53, 53);
+}
+
+.hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover figure:hover img{
+    opacity: .5;
+}
+
+#Htext{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 1.5vw;
+}
+
+/*---------------footer part---------------*/
+
+footer {
+    
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;  
+    margin-top: 50px;
+}
+
+#imageicons {
+    width: 3%;
+    height: 3%; 
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { /*This media query is for the tablet screen size, so that everything looks good on a tablet as well*/
+/*---------------body part---------------*/
+body{
+    display: block;
+    margin: 0;
+}
+/*---------------header part---------------*/
+#main-header{
+
+    background-color:#242525;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+    text-align: center;
+    font-family: "Lucida Console";
+    color: white;
+    padding: 1%;
+    font-size: 3vw;
+}
+
+#header-logo{
+    text-align: center;
+}
+
+#descrip{
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+    margin: 0.5%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+
+}
+
+/*---------------skills part---------------*/
+
+#skills-title{
+    font-size: 1.8vw;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#skills-div{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    padding: 1%;
+}
+
+/*---------------software projects part---------------*/
+
+#software-projects-div{
+    padding: 1%;
+}
+
+#software-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#main-software{
+    margin-top: 5%;
+}
+
+#software-languages-images{
+    width: 60%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.software_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.software_image__img {
+    display: block;
+    width: 100%;
+}
+
+.software_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 28%;
+    width: 45%;
+    height: 70%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.software_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.software_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------web projects part---------------*/
+
+#web-projects-dev{
+    padding: 1%;
+}
+
+#web-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#web-software{
+    margin-top: 5%;
+}
+
+#web-languages-images{
+    width: 80%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.web_image__img {
+    display: block;
+    width: 100%;
+}
+
+.web_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 48%;
+    height: 60%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.web_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.web_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------game projects part---------------*/
+
+#game-projects-dev{
+    padding: 1%;
+}
+
+#game-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#game-software{
+    margin-top: 5%;
+}
+
+#game-languages-images{
+    width: 20%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.game_image__img {
+    display: block;
+    width: 100%;
+}
+
+.game_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 41%;
+    width: 17%;
+    height: 70%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.game_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.game_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------images in projects---------------*/
+
+#imgs{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 110%;
+    border: 5px solid rgb(54, 53, 53);
+}
+
+.hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover figure:hover img{
+    opacity: .5;
+}
+
+#Htext{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 1.5vw;
+}
+
+/*---------------footer part---------------*/
+
+footer {
+    
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;  
+    margin-top: 50px;
+}
+
+#imageicons {
+    width: 3%;
+    height: 3%; 
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+  }
+
+@media screen and (max-width: 767px) { /*media query that allows the size of the content to match the size of the screen*/
+/*---------------body part---------------*/
+body{
+    display: block;
+    margin: 0;
+}
+/*---------------header part---------------*/
+#main-header{
+
+    background-color:#242525;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#title{
+    text-align: center;
+    font-family: "Lucida Console";
+    color: white;
+    padding: 1%;
+    font-size: 3vw;
+}
+
+#header-logo{
+    text-align: center;
+}
+
+#descrip{
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+    margin: 0.5%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+
+}
+
+/*---------------skills part---------------*/
+
+#skills-title{
+    font-size: 1.8vw;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#skills-div{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    padding: 1%;
+}
+
+/*---------------software projects part---------------*/
+
+#software-projects-div{
+    padding: 1%;
+}
+
+#software-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#main-software{
+    margin-top: 5%;
+}
+
+#software-languages-images{
+    width: 60%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.software_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.software_image__img {
+    display: block;
+    width: 100%;
+}
+
+.software_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 28%;
+    width: 45%;
+    height: 70%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.software_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.software_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------web projects part---------------*/
+
+#web-projects-dev{
+    padding: 1%;
+}
+
+#web-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#web-software{
+    margin-top: 5%;
+}
+
+#web-languages-images{
+    width: 80%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.web_image__img {
+    display: block;
+    width: 100%;
+}
+
+.web_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 48%;
+    height: 60%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.web_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.web_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------game projects part---------------*/
+
+#game-projects-dev{
+    padding: 1%;
+}
+
+#game-title{
+    font-size: 2.5vw;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 1%;
+    margin-bottom: -2%;
+}
+
+#game-software{
+    margin-top: 5%;
+}
+
+#game-languages-images{
+    width: 20%;
+    border: 2px solid rgb(54, 53, 53);
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game_img__wrap {
+    position: relative;
+    width: 90%;
+    height: 110%;
+}
+
+.game_image__img {
+    display: block;
+    width: 100%;
+}
+
+.game_imageOverlay{
+    position: absolute;
+    top: 0;
+    left: 41%;
+    width: 17%;
+    height: 70%;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.game_imageOverlay:hover{
+    opacity: 1;
+    transition: opacity .2s, visibility .2s;
+}
+
+.game_imageTitle{
+    font-size: 0.8vw;
+}
+
+/*---------------images in projects---------------*/
+
+#imgs{
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 110%;
+    border: 5px solid rgb(54, 53, 53);
+}
+
+.hover figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover figure:hover img{
+    opacity: .5;
+}
+
+#Htext{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 1.5vw;
+}
+
+/*---------------footer part---------------*/
+
+footer {
+    
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;  
+    margin-top: 50px;
+}
+
+#imageicons {
+    width: 3%;
+    height: 3%; 
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+  }
+
