@@ -224,6 +224,11 @@ export const sections = [
     ],
     projects: [
       {
+        title: "From Stress to Strength",
+        image: "From Stress To Strength.png",
+        link: "https://www.fromstresstostrength.co.uk"
+      },
+      {
         title: "Game Store Website",
         image: "Game Store Website.png",
         link: "https://github.com/Ionatan-Cegodari/Game-Store-Website"
