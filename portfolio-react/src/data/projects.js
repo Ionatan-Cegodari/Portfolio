@@ -151,6 +151,21 @@ export const sections = [
     ],
     projects: [
       {
+        title: "From Stress to Strength",
+        image: "From Stress To Strength.png",
+        link: "https://www.fromstresstostrength.co.uk"
+      },
+      {
+        title: "Momentum Psychology",
+        image: "Momentum Psychology.png",
+        link: "https://francisweb-production.up.railway.app"
+      },
+      {
+        title: "Signal Solutions",
+        image: "Signal Solutions.png",
+        link: "https://southwalesaerialman.co.uk"
+      },
+      {
         title: "Diasspora Ecommerce Website",
         image: "Diasspora.png",
         link: "https://dfm-production.up.railway.app"
@@ -229,14 +244,14 @@ export const sections = [
         link: "https://www.fromstresstostrength.co.uk"
       },
       {
-        title: "Game Store Website",
-        image: "Game Store Website.png",
-        link: "https://github.com/Ionatan-Cegodari/Game-Store-Website"
+        title: "Momentum Psychology",
+        image: "Momentum Psychology.png",
+        link: "https://francisweb-production.up.railway.app"
       },
       {
-        title: "Games Shop Review Website",
-        image: "Games Shop Review Website.png",
-        link: "https://github.com/Ionatan-Cegodari/Games-Shop-Review-Website"
+        title: "Signal Solutions",
+        image: "Signal Solutions.png",
+        link: "https://southwalesaerialman.co.uk"
       },
       {
         title: "Diasspora Ecommerce Website",
